@@ -1,0 +1,7 @@
+const Discord = require("discord.js")
+
+exports.run = async (client, message, args) => {
+  message.delete()
+  return message.channel.send(`${message.author} Bem-vindo a nossa central de ajuda :D` + "\n```O nosso prefixo é: rt-  ;Isto é, para utilizar qualquer comando de nosso bot utilize o prefixo antes do comando, exemplo: rt-comando```" + `\n||========================${message.author}========================||` + "\n ``Os nossos comandos incluem:``\n`🔴|rt-caracoroa ; Este comando você testa sua sorte jogando um jogo simples de cara ou coroa`\n`🟠|rt-cor ; Este comando você pode trocar a cor do seu nick`\n`🟡|rt-repetir ; este comando permite que o bot sobreponha sua mensagem, como se ele estivesse falando por você`\n`🟢|rt-limpar ; Este comando so consegue ser utilizado pelo pessoal da staff, ele serve para limpar o chat :D`\n`🔵|rt-youtube ; Mostra o canal do youtube`\n`🟣|rt-twitter ; Mostra nosso perfil no twitter`\n`🟤|rt-nos ; Este comando serve para explicar um pouco quem somos nós, e o que fazemos`\n`⚫|rt-convite ; Este comando mostra o convite do servidor, para que você convide seus amigos :D`´\n\n\n||==================================================================||\n\n```Em nosso servidor temos os seguintes bots: 🖥Bot Craig  ; 🖥Bot Loritta  ; 🖥Bot MEE6  ; 🖥Bot NQN  ; 🖥Bot Pingcord```\nhttps://cdn.discordapp.com/attachments/830161122060927010/830161612220006430/icon-rabiscos-tortos-oficial.jpg")
+  
+}
